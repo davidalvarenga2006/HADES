@@ -1,51 +1,11 @@
-# Sistema de análisis de inventario
+Proyecto Food Flash
 
-Proyecto académico para Programación Computacional III – Segundo Cómputo angel de jesus garcia gonzalez, david alejandro cruz albarenga.
+Integrantes:
+Angel de Jesús García Gonzales SMTR076825 
+David Alejandro Cruz Alvarenga SMTR099525
+Ingrid Patricia García 
 
-## Descripción
-Aplicación de escritorio en Python con PyQt5, Pandas y Matplotlib. Lee `datos.csv`, permite filtrar por sucursal, muestra una tabla del inventario, gráficos y un resumen estadístico.
-
-## Sucursales
-- San Salvador
-- Santa Ana
-- San Miguel
-- La Libertad
-- Sonsonate
-
-## Requisitos
-- Python 3.11 recomendado
-- Ver `requirements.txt`
-
-## Instalación en Windows
-Abre PowerShell dentro de esta carpeta y ejecuta:
-
-```powershell
-py -m venv .venv
-.\.venv\Scripts\Activate.ps1
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-python inventario_app.py
-```
-
-Si PowerShell bloquea la activación del entorno, puedes ejecutar directamente:
-```powershell
-.\.venv\Scripts\python.exe -m pip install -r requirements.txt
-.\.venv\Scripts\python.exe inventario_app.py
-```
-
-## Análisis con Pandas
-La aplicación usa `shape`, `dtypes`, `isnull().sum()` y `describe()` para inspeccionar los datos. Los gráficos se crean con Matplotlib.
-
-## Archivos
-- `inventario_app.py`: aplicación gráfica.
-- `datos.csv`: inventario simulado de 100 registros.
-- `informe_consultoria.pdf`: informe de resultados.
-- `requirements.txt`: dependencias.
-- `.gitignore`: archivos temporales excluidos.
-
-## Integrantes
-1. [angel de jesus garcia gonzalez]
-2. [david alejandro cruz albarenga]
-
-## Nota sobre los datos
-Los registros son simulados con fines académicos y no representan ventas o inventarios reales de una empresa.
+Nuestro proyecto es algo parecido a Pedidos Ya, pero enfocado en la universidad debido a que servira para los estudiantes, docentes y 
+el personal que quiera utilizarla, se tratará sobre hacer un pedido en linea a un comedor o chalet de la universidad, esta informacion 
+llegara a su lugar de destino deseado y al personal del chalet le llegara el pedido realizado por cierto estudiante, esto ayudara bastante
+para ahorrarse algo de tiempo y no tener que esperar bastante
